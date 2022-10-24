@@ -1,0 +1,112 @@
+[
+    {
+        "name": "Genshin Impact",
+        "img_src_comment": "https://en.wikipedia.org/wiki/File:Genshin_Impact_logo.svg",
+        "img": "images/Genshin-Impact.svg",
+        "margin": 35,
+        "type": "Action role-playing",
+        "detail": "\u0e40\u0e1b\u0e47\u0e19\u0e40\u0e01\u0e21\u0e1c\u0e08\u0e0d\u0e20\u0e31\u0e22\u0e43\u0e19\u0e42\u0e25\u0e01\u0e40\u0e1b\u0e34\u0e14\u0e17\u0e35\u0e48\u0e1e\u0e31\u0e12\u0e19\u0e32\u0e42\u0e14\u0e22 \u0e21\u0e34\u0e42\u0e2e\u0e42\u0e22\u0e30 \u0e1c\u0e39\u0e49\u0e1e\u0e31\u0e12\u0e19\u0e32\u0e40\u0e01\u0e21\u0e2a\u0e31\u0e0d\u0e0a\u0e32\u0e15\u0e34\u0e08\u0e35\u0e19",
+        "src_detail": "https://th.wikipedia.org/wiki/%E0%B9%80%E0%B8%81%E0%B9%87%E0%B8%99%E0%B8%8A%E0%B8%B4%E0%B8%99%E0%B8%AD%E0%B8%B4%E0%B8%A1%E0%B9%81%E0%B8%9E%E0%B8%81%E0%B8%95%E0%B9%8C",
+        "official_link": "https://genshin.hoyoverse.com",
+        "display_official_link": "genshin.hoyoverse.com"
+    },
+    {
+        "name": "Osu!",
+        "img_src_comment": "https://commons.wikimedia.org/wiki/File:Osu!_Logo_2016.svg",
+        "img": "images/Osu!.svg",
+        "margin": 10,
+        "type": "Rhythm",
+        "detail": "\u0e40\u0e1b\u0e47\u0e19\u0e42\u0e1b\u0e23\u0e41\u0e01\u0e23\u0e21\u0e1f\u0e23\u0e35\u0e41\u0e27\u0e23\u0e4c\u0e17\u0e35\u0e48\u0e1e\u0e31\u0e12\u0e19\u0e32\u0e42\u0e14\u0e22 \u0e14\u0e35\u0e19 \u0e40\u0e2e\u0e2d\u0e23\u0e4c\u0e40\u0e1a\u0e34\u0e23\u0e4c\u0e15 \u0e42\u0e14\u0e22\u0e21\u0e41\u0e23\u0e07\u0e1a\u0e31\u0e19\u0e14\u0e32\u0e25\u0e43\u0e08\u0e08\u0e32\u0e01\u0e40\u0e01\u0e21 \u0e42\u0e2d\u0e4a\u0e17\u0e2a\u0e4c! \u0e17\u0e32\u0e17\u0e32\u0e04\u0e32\u0e40\u0e2d\u0e30! \u0e42\u0e2d\u0e40\u0e2d\u0e19\u0e14\u0e31\u0e19, \u0e44\u0e17\u0e42\u0e01\u0e30\u0e42\u0e19\u0e30\u0e17\u0e30\u0e2a\u0e36\u0e08\u0e34\u0e19, \u0e42\u0e2d\u0e17\u0e39\u0e41\u0e08\u0e21 \u0e41\u0e25\u0e30\u0e1a\u0e35\u0e17\u0e21\u0e32\u0e40\u0e19\u0e35\u0e22 \u0e17\u0e39\u0e14\u0e35\u0e40\u0e2d\u0e01\u0e0b\u0e4c",
+        "src_detail": "https://th.wikipedia.org/wiki/%E0%B9%82%E0%B8%AD%E0%B8%AA%E0%B8%B8!",
+        "official_link": "https://osu.ppy.sh",
+        "display_official_link": "osu.ppy.sh"
+    },
+    {
+        "name": "Free Fire",
+        "img_src_comment": "https://th.wikipedia.org/wiki/%E0%B9%84%E0%B8%9F%E0%B8%A5%E0%B9%8C:Garena_Free_Fire_Logo.jpg",
+        "img": "images/Free-Fire.png",
+        "margin": 40,
+        "type": "Battle royale",
+        "detail": "\u0e40\u0e1b\u0e47\u0e19\u0e40\u0e01\u0e21\u0e41\u0e1a\u0e15\u0e40\u0e17\u0e34\u0e25\u0e23\u0e2d\u0e22\u0e31\u0e25\u0e1e\u0e31\u0e12\u0e19\u0e32\u0e42\u0e14\u0e22 111 \u0e14\u0e2d\u0e15\u0e2a\u0e4c\u0e2a\u0e15\u0e39\u0e14\u0e34\u0e42\u0e2d \u0e41\u0e25\u0e30\u0e27\u0e32\u0e07\u0e08\u0e33\u0e2b\u0e19\u0e48\u0e32\u0e22\u0e42\u0e14\u0e22\u0e01\u0e32\u0e23\u0e35\u0e19\u0e32",
+        "src_detail": "https://th.wikipedia.org/wiki/%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%B5%E0%B8%99%E0%B8%B2%E0%B8%9F%E0%B8%A3%E0%B8%B5%E0%B9%84%E0%B8%9F%E0%B8%A3%E0%B9%8C",
+        "official_link": "https://ff.garena.com",
+        "display_official_link": "ff.garena.com"
+    },
+    {
+        "name": "Need For Speed Heat",
+        "img_src_comment": "https://en.wikipedia.org/wiki/File:Cover_Art_of_Need_for_Speed_Heat.png",
+        "img": "images/Need-For-Speed-Heat.png",
+        "margin": 0,
+        "type": "Racing",
+        "detail": "\u0e40\u0e1b\u0e47\u0e19\u0e27\u0e34\u0e14\u0e35\u0e42\u0e2d\u0e40\u0e01\u0e21\u0e41\u0e19\u0e27\u0e41\u0e02\u0e48\u0e07\u0e23\u0e16 \u0e1e\u0e31\u0e12\u0e19\u0e32\u0e42\u0e14\u0e22\u0e42\u0e01\u0e2a\u0e15\u0e4c\u0e40\u0e01\u0e21\u0e2a\u0e4c \u0e41\u0e25\u0e30\u0e08\u0e31\u0e14\u0e08\u0e33\u0e2b\u0e19\u0e48\u0e32\u0e22\u0e42\u0e14\u0e22\u0e2d\u0e34\u0e40\u0e25\u0e47\u0e01\u0e17\u0e23\u0e2d\u0e19\u0e34\u0e01 \u0e2d\u0e32\u0e15\u0e2a\u0e4c",
+        "src_detail": "https://th.wikipedia.org/wiki/%E0%B8%99%E0%B8%B5%E0%B8%94%E0%B8%9F%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%AA%E0%B8%9B%E0%B8%B5%E0%B8%94%E0%B8%AE%E0%B8%B5%E0%B8%95",
+        "official_link": "https://www.ea.com/games/need-for-speed/need-for-speed-heat",
+        "display_official_link": "www.ea.com/games/need-for-speed/need-for-speed-heat"
+    },
+    {
+        "name": "Terraria",
+        "img_src_comment": "https://en.wikipedia.org/wiki/File:TerrariaLogo2.png",
+        "img": "images/Terraria.png",
+        "margin": 30,
+        "type": "Action-adventure Sandbox",
+        "detail": "\u0e40\u0e1b\u0e47\u0e19\u0e40\u0e01\u0e21\u0e41\u0e0b\u0e19\u0e14\u0e4c\u0e1a\u0e2d\u0e01\u0e0b\u0e4c 2D \u0e08\u0e32\u0e01 Re-Logic",
+        "src_detail": "https://th.wikipedia.org/wiki/%E0%B9%80%E0%B8%97%E0%B8%AD%E0%B8%A3%E0%B8%B2%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2",
+        "official_link": "https://terraria.org/",
+        "display_official_link": "terraria.org"
+    },
+    {
+        "name": "Minecraft",
+        "img_src_comment": "https://en.wikipedia.org/wiki/File:Minecraft_cover.png",
+        "img": "images/Minecraft.png",
+        "margin": 0,
+        "type": "Sandbox survival",
+        "detail": "\u0e40\u0e1b\u0e47\u0e19\u0e27\u0e34\u0e14\u0e35\u0e42\u0e2d\u0e40\u0e01\u0e21\u0e41\u0e0b\u0e19\u0e14\u0e4c\u0e1a\u0e47\u0e2d\u0e01\u0e0b\u0e4c\u0e17\u0e35\u0e48\u0e1e\u0e31\u0e12\u0e19\u0e32\u0e42\u0e14\u0e22\u0e1a\u0e23\u0e34\u0e29\u0e31\u0e17\u0e1e\u0e31\u0e12\u0e19\u0e32\u0e40\u0e01\u0e21\u0e2a\u0e27\u0e35\u0e40\u0e14\u0e19 Mojang Studios \u0e2a\u0e23\u0e49\u0e32\u0e07\u0e02\u0e36\u0e49\u0e19\u0e42\u0e14\u0e22\u0e19\u0e31\u0e01\u0e2d\u0e2d\u0e01\u0e41\u0e1a\u0e1a\u0e40\u0e01\u0e21\u0e0a\u0e32\u0e27\u0e2a\u0e27\u0e35\u0e40\u0e14\u0e19 Markus Persson \u0e2b\u0e23\u0e37\u0e2d Notch",
+        "src_detail": "https://th.wikipedia.org/wiki/%E0%B9%84%E0%B8%A1%E0%B8%99%E0%B9%8C%E0%B8%84%E0%B8%A3%E0%B8%B2%E0%B8%9F%E0%B8%95%E0%B9%8C",
+        "official_link": "https://www.minecraft.net",
+        "display_official_link": "www.minecraft.net"
+    },
+    {
+        "name": "Honkai Impact",
+        "img_src_comment": "https://en.wikipedia.org/wiki/File:Honkai_Impact_3rd_logo.png",
+        "img": "images/Honkai-Impact.png",
+        "margin": 10,
+        "type": "Role-playing RPG",
+        "detail": "\u0e40\u0e1b\u0e47\u0e19\u0e40\u0e01\u0e21\u0e2a\u0e27\u0e21 \u0e1a\u0e17\u0e1a\u0e32\u0e17\u0e41\u0e2d\u0e47\u0e01\u0e0a\u0e31\u0e19 3D \u0e1e\u0e31\u0e12\u0e19\u0e32\u0e41\u0e25\u0e30\u0e40\u0e1c\u0e22\u0e41\u0e1e\u0e23\u0e48\u0e42\u0e14\u0e22 miHoYo",
+        "src_detail": "https://en.wikipedia.org/wiki/Honkai_Impact_3rd",
+        "official_link": "https://honkaiimpact3.hoyoverse.com/global",
+        "display_official_link": "honkaiimpact3.hoyoverse.com/global"
+    },
+    {
+        "name": "Blue Archives",
+        "img_src_comment": "https://en.wikipedia.org/wiki/File:Blue_Archives_cover.jpeg",
+        "img": "images/Blue-Archives.png",
+        "margin": 10,
+        "type": "Role-playing",
+        "detail": "\u0e40\u0e1b\u0e47\u0e19\u0e40\u0e01\u0e21\u0e40\u0e25\u0e48\u0e19\u0e15\u0e32\u0e21\u0e1a\u0e17\u0e1a\u0e32\u0e17 \u0e17\u0e35\u0e48\u0e1e\u0e31\u0e12\u0e19\u0e32\u0e42\u0e14\u0e22\u0e40\u0e19\u0e47\u0e01\u0e0b\u0e2d\u0e19\u0e40\u0e01\u0e21 (\u0e40\u0e14\u0e34\u0e21\u0e0a\u0e37\u0e48\u0e2d NAT Games) \u0e0b\u0e36\u0e48\u0e07\u0e40\u0e1b\u0e47\u0e19\u0e1a\u0e23\u0e34\u0e29\u0e31\u0e17\u0e43\u0e19\u0e40\u0e04\u0e23\u0e37\u0e2d\u0e02\u0e2d\u0e07\u0e40\u0e19\u0e47\u0e01\u0e0b\u0e2d\u0e19",
+        "src_detail": "https://th.wikipedia.org/wiki/%E0%B8%9A%E0%B8%A5%E0%B8%B9_%E0%B8%AD%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B9%84%E0%B8%84%E0%B8%9F%E0%B9%8C",
+        "official_link": "https://bluearchive.nexon.com/home",
+        "display_official_link": "bluearchive.nexon.com/home"
+    },
+    {
+        "name": "Grand Theft Auto V",
+        "img_src_comment": "https://en.wikipedia.org/wiki/File:Grand_Theft_Auto_V.png",
+        "img": "images/Grand-Theft-Auto-V.png",
+        "margin": 0,
+        "type": "Action-adventure",
+        "detail": "\u0e40\u0e1b\u0e47\u0e19\u0e40\u0e01\u0e21\u0e41\u0e2d\u0e47\u0e01\u0e0a\u0e31\u0e19\u0e1c\u0e08\u0e0d\u0e20\u0e31\u0e22 \u0e1e\u0e31\u0e12\u0e19\u0e32\u0e42\u0e14\u0e22\u0e23\u0e47\u0e2d\u0e01\u0e2a\u0e15\u0e32\u0e23\u0e4c\u0e19\u0e2d\u0e23\u0e4c\u0e17 \u0e41\u0e25\u0e30\u0e08\u0e31\u0e14\u0e08\u0e33\u0e2b\u0e19\u0e48\u0e32\u0e22\u0e42\u0e14\u0e22\u0e23\u0e47\u0e2d\u0e01\u0e2a\u0e15\u0e32\u0e23\u0e4c\u0e40\u0e01\u0e21\u0e2a\u0e4c",
+        "src_detail": "https://th.wikipedia.org/wiki/%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%99%E0%B8%94%E0%B9%8C%E0%B9%80%E0%B8%97%E0%B8%9F%E0%B8%95%E0%B9%8C%E0%B8%AD%E0%B8%AD%E0%B9%82%E0%B8%95_V",
+        "official_link": "https://www.rockstargames.com/gta-v",
+        "display_official_link": "www.rockstargames.com/gta-v"
+    },
+    {
+        "name": "Point Blank",
+        "img_src_comment": "https://en.wikipedia.org/wiki/File:Pointblanklogo.jpg",
+        "img": "images/Point-Blank.png",
+        "margin": 10,
+        "type": "Light-gun-shooter",
+        "detail": " \u0e40\u0e1b\u0e47\u0e19\u0e27\u0e34\u0e14\u0e35\u0e42\u0e2d\u0e40\u0e01\u0e21\u0e22\u0e34\u0e07\u0e21\u0e38\u0e21\u0e21\u0e2d\u0e07\u0e1a\u0e38\u0e04\u0e04\u0e25\u0e17\u0e35\u0e48\u0e2b\u0e19\u0e36\u0e48\u0e07 \u0e17\u0e35\u0e48\u0e1e\u0e31\u0e12\u0e19\u0e32\u0e42\u0e14\u0e22\u0e1a\u0e23\u0e34\u0e29\u0e31\u0e17 Zepetto \u0e02\u0e2d\u0e07\u0e40\u0e01\u0e32\u0e2b\u0e25\u0e35\u0e43\u0e15\u0e49",
+        "src_detail": "https://en.wikipedia.org/wiki/Point_Blank_(2008_video_game)",
+        "official_link": "https://pointblank.zepetto.com",
+        "display_official_link": "pointblank.zepetto.com"
+    }
+]
