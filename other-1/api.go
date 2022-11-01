@@ -34,7 +34,7 @@ func GetAPI(r *gin.Engine) {
 
 	router.GET("/get-url", func(c *gin.Context) {
 		c.JSON(http.StatusOK, gin.H{
-			"url":     "https://gamertocoder.garena.co.th/api/minigames",
+			"url":     nil,
 			"convert": true,
 		})
 	})

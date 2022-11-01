@@ -48,7 +48,7 @@ func main() {
 			c.IndentedJSON(http.StatusOK, objmap)
 		}
 	})
-	api.GET("/item-list-gamertocoder-garena-co-th", func(c *gin.Context) {
+	api.GET("/item-list-other", func(c *gin.Context) {
 		content, err := ioutil.ReadFile("./api_cache.json")
 		if err != nil {
 			log.Fatal(err)
@@ -62,7 +62,7 @@ func main() {
 	})
 	api.GET("/url-item-list", func(c *gin.Context) {
 		c.JSON(http.StatusOK, gin.H{
-			"url":     "https://gamertocoder.garena.co.th/api/minigames",
+			"url":     nil,
 			"convert": true,
 		})
 	})
