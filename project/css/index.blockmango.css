@@ -1,0 +1,141 @@
+#blockman_go {
+    font-family: "Roboto", sans-serif;
+}
+#blockman_go .center-bottom {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%, -25%);
+    background-color: transparent;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#blockman_go .center-bottom img.logo {
+    width: 33.8541vw;
+    filter: drop-shadow(0.2604vw 0.2604vw 1.302vw rgb(0, 0, 0));
+    margin-bottom: 1.04166vw;
+    animation: opacity ease 1s forwards;
+}
+#blockman_go .center-bottom a.download-now {
+    width: 15vw;
+    height: 3.12vw;
+    background-color: rgb(255, 211, 34);
+    font-size: 1.5625vw;
+    font-weight: bold;
+    border-radius: 0.7812vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    filter: drop-shadow(0px 0px 0.5208vw rgb(0, 0, 0));
+    animation: download_slice_up ease 1s forwards;
+}
+#blockman_go .center-bottom a.download-now i {
+    margin-right: 0.8854vw;
+}
+#blockman_go .center-bottom a.download-now:hover {
+    cursor: pointer;
+    background-color: rgb(228, 182, 0);
+}
+#blockman_go .center-bottom a.download-now:active {
+    cursor: pointer;
+    background-color: rgb(173, 139, 0);
+}
+#blockman_go .center-bottom a.download-other {
+    font-size: 0.9375vw;
+    margin-top: 0.7291vw;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 0.5208vw rgb(0, 0, 0),
+        0px 0px 0.7812vw rgb(0, 0, 0),
+        0px 0px 1.0416vw rgb(0, 0, 0),
+        0px 0px 1.3020vw rgb(0, 0, 0);
+    animation: download_slice_up ease 1s forwards;
+}
+#blockman_go .center-bottom a.download-other:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+#blockman_go .center-bottom a.download-other:active {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(228, 182, 0);
+}
+#blockman_go div.download-other {
+    display: none;
+    width: 44.2708vw;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1.0416vw;
+    filter: drop-shadow(0px 0px 0.2604vw rgb(0, 0, 0));
+    color: rgb(255, 255, 255);
+    padding: 1.0416vw;
+    user-select: none;
+}
+#blockman_go div.download-other div.top i {
+    position: absolute;
+    right: 1.0416vw;
+    top: 0.8333vw;
+    align-items: baseline;
+    display: inline-block;
+    filter: drop-shadow(0px 0px 0.1041vw rgb(255, 255, 255));
+    font-size: 1.5625vw;
+}
+#blockman_go div.download-other div.top span {
+    font-size: 1.7187vw;
+}
+#blockman_go div.download-other div.top i:hover {
+    cursor: pointer;
+    color: rgb(228, 182, 0);
+}
+#blockman_go div.download-other div.container-platform-download {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.0416vw auto;
+    animation: opacity ease 0.8s forwards;
+}
+#blockman_go div.download-other div.container-platform-download div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5208vw;
+    padding: 0.4166vw;
+    border: 0.1041vw solid rgb(255, 255, 255);
+    border-radius: 0.2604vw;
+    background-color: rgb(0, 0, 0);
+    width: 13.5416vw;
+    box-sizing: border-box;
+}
+#blockman_go div.download-other div.container-platform-download div:hover {
+    cursor: pointer;
+    color: rgb(228, 182, 0);
+    border-color: rgb(228, 182, 0);
+}
+#blockman_go div.download-other div.container-platform-download div:active {
+    cursor: pointer;
+    color: rgb(173, 139, 0);
+    border-color: rgb(173, 139, 0);
+}
+#blockman_go div.download-other div.container-platform-download div i {
+    font-size: 2.3437vw;
+}
+#blockman_go div.download-other div.container-platform-download div span {
+    font-size: 1.8229vw;
+    margin-left: 0.5208vw;
+}
+#blockman_go div.download-other-background-blur {
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(0.1562vw);
+}

@@ -1,0 +1,194 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Prompt&family=Roboto&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: "Prompt", sans-serif;
+    background: top;
+    background-size: cover;
+    height: 100%;
+    height: 100vh;
+    width: 100%;
+}
+.background_body_minigames {
+    background-image: var(--background-body-minigame);
+}
+.background_body_blockman_go {
+    background-image: var(--background-body-blockman_go);
+}
+.background_body_characters {
+    background-image: var(--background-body-characters);
+}
+.body {
+    width: 100%;
+    height: 100%;
+}
+#btn_arrow div {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 2.6041vw;
+    background-color: rgba(0, 0, 0, 0.600);
+    color:rgb(255, 255, 255);
+    font-size: 2.3437vw;
+    opacity: 0.5;
+    box-shadow: 0px 0px 0.5208vw 0.5208vw rgba(0, 0, 0, 0.600);
+    z-index: 1;
+    animation: opacity-50-percent ease 1s;
+}
+#btn_arrow div.left {
+    left: 0px;
+}
+#btn_arrow div.left:hover {
+    cursor: pointer;
+    opacity: 1;
+    color: rgb(255, 211, 34);
+}
+#btn_arrow div.right {
+    right: 0px;
+}
+#btn_arrow div.right:hover {
+    cursor: pointer;
+    opacity: 1;
+    color: rgb(255, 211, 34);
+}
+.nav {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    filter: drop-shadow(0px 0px 0.7812vw rgba(0, 0, 0, 0.5));
+    animation: opacity ease 1s;
+}
+.nav ul {
+    margin: 1.0416vw auto;
+    font-family: "Roboto", sans-serif;
+    list-style-type: none;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.600);
+    border-radius: 1.302vw;
+    overflow: hidden;
+}
+.nav ul li {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-size: 1.40625vw;
+    font-weight: bold;
+    width: 16.6666vw;
+    height: 2.6041vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+.nav .active {
+    color: rgb(255, 211, 34);
+}
+.nav .active::after {
+    content: "";
+    position: absolute;
+    display: block;
+    background-color: rgb(255, 211, 34);
+    border-radius: 0.2604vw;
+    width: 16.6666vw;
+    height: 0.2604vw;
+    bottom: 0px;
+}
+.nav ul li:hover:not(.active) {
+    animation: nav-hover-to-active ease 0.2s forwards 0.05s;
+}
+.nav ul li.deactive {
+    color:rgb(141, 141, 141);
+    animation: nav-hover-active-to-deactive ease 0.2s forwards;
+}
+.nav ul li.active.deactive {
+    animation: nav-hover-not-active ease 0.2s forwards;
+}
+#mini_games, #blockman_go, #characters {
+    display: none;
+}
+@keyframes nav-hover-to-active {
+    0% {
+        color: rgb(255, 255, 255);
+    }
+    100% {
+        color: rgb(255, 211, 34);
+    }
+}
+@keyframes nav-hover-active-to-deactive {
+    0% {
+        color: rgb(255, 255, 255);
+    }
+    100% {
+        color: rgb(141, 141, 141);
+    }
+}
+@keyframes opacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes opacity-50-percent {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}
+@keyframes nav-hover-not-active {
+    0% {
+        color: rgb(255, 211, 34);
+    }
+    100% {
+        color: rgb(141, 141, 141);
+    }
+}
+@keyframes text_slice_up {
+    0% {
+        transform: translateY(3.9062vw);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+@keyframes text_name_slice_up {
+    0% {
+        transform: translateY(1.3020vw);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+@keyframes download_slice_up {
+    0% {
+        transform: translateY(2.6041vw);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+@keyframes minigame_item_hover {
+    0% {
+        transform: scale(1.00001);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
