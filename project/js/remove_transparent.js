@@ -1,6 +1,5 @@
 // https://ourcodeworld.com/articles/read/683/how-to-remove-the-transparent-pixels-that-surrounds-a-canvas-in-javascript
 function remove_transparent(img) {
-    // console.time("remove_transparent")
     let canvas = document.createElement("canvas");
     canvas.width = img.naturalWidth;
     canvas.height = img.naturalHeight;
@@ -50,6 +49,5 @@ function remove_transparent(img) {
     copy.canvas.width = trimWidth;
     copy.canvas.height = trimHeight;
     copy.putImageData(trimmed, 0, 0);
-    // console.timeEnd("remove_transparent")
     return copy.canvas.toDataURL();
 };

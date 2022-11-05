@@ -1,9 +1,10 @@
+# gamertocoder-192
+
 # ทีม Don't Know Everything
 
-## Resource
-- https://gamertocoder.garena.co.th/api/assets
-- https://gamertocoder.garena.co.th/api/minigames
-- https://gamertocoder.garena.co.th/api/minigame/
+# การเรียกใช้ resource จากภายนอก
 
-## font
-- https://github.com/cadsondemak/prompt
+| เรียกจาก | เป็น | ของ | ชนิด |
+|:---:|:---:|:---:|:---:|
+| https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css | CSS | https://fontawesome.com | Font / Icon |
+| https://fonts.googleapis.com/css2?family=Prompt&family=Roboto&display=swap | CSS | https://fonts.google.com | Font |

@@ -51,7 +51,6 @@ function GetResource(request, callback) {
         semaphore -= 1;
         if (semaphore == 0) {
             Resource_fix_something(resource);
-            RedirectURL_OBJ(resource);// dev
             callback(resource);
         };
     };
@@ -106,9 +105,9 @@ function GetResource(request, callback) {
         // String คือ ต้องการ GET ด้วย URL นั้นอย่างเดียว
         // Object - i[0] คือชื่อ url ส่วน i[1] คือข้อมูลที่ต้องนำมาต่อท้าย
         if (typeof(i) == "string" && resource.url[i] != null) {
-            url = RedirectURL(resource.url[i]); //dev
+            url = resource.url[i]
         } else if (typeof(i) == "object" && resource.url[i[0]] != null) {
-            url = RedirectURL(resource.url[i[0]] + i[1]); //dev
+            url = resource.url[i[0]] + i[1]
         } else {
             // ไม่มีที่อยู่ URL สำหรับคำขอดึงข้อมูล
             console.log(`ERROR : The URL address for the fetch request does not exist. [${i}]`);

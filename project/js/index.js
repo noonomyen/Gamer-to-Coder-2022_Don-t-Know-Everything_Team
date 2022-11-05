@@ -121,11 +121,11 @@ GetResource(["assets", "minigames"], (resource) => {
 
     // รูป logo หน้า #blockman_go
     let blockman_go_logo = document.querySelector("#blockman_go .center-bottom img");
+    blockman_go_logo.crossOrigin = "Anonymous";
     blockman_go_logo.src = resource.assets.logo.GetURL("01.png");
     // outline logo
     blockman_go_logo.onload = () => {
-        blockman_go_logo.onload = null;
-        // console.time("create-outline");
+        blockman_go_logo.onload = null;;
         let canvas = document.createElement("canvas");
         canvas.width = blockman_go_logo.naturalWidth + 20;
         canvas.height = blockman_go_logo.naturalHeight + 20;
@@ -145,7 +145,6 @@ GetResource(["assets", "minigames"], (resource) => {
         ctx.globalCompositeOperation = "source-over";
         ctx.drawImage(blockman_go_logo, x, y);
         blockman_go_logo.src = ctx.canvas.toDataURL();
-        // console.timeEnd("create-outline");
     };
 
     // หน้า #mini_games เพิ่มรายการเกม
@@ -260,6 +259,7 @@ GetResource(["assets", "minigames"], (resource) => {
         let div = document.createElement("div");
         let img = document.createElement("img");
         img.src = resource.assets.character_group[name][0];
+        img.crossOrigin = "Anonymous";
         div.onclick = () => {
             document.querySelector("#characters div.frame div.container div.right div.name").innerText = name;
             document.querySelector("#characters div.frame div.container div.right img").src = img.src;

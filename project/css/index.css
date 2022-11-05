@@ -1,12 +1,5 @@
-@font-face {
-    font-family: "Prompt";
-    src: url(/dev/fonts/Prompt-Regular.ttf);
-}
-
-@font-face {
-    font-family: "Roboto";
-    src: url(/dev/fonts/Roboto-Regular.ttf);
-}
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Prompt&family=Roboto&display=swap');
 * {
     margin: 0px;
     padding: 0px;
