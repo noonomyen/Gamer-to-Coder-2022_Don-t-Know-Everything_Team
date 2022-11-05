@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Dev Tools</title>
+    </head>
+    <style>
+        body {
+            margin: 30px;
+            background-color: #adadad;
+        }
+        hr {
+            height: 10px;
+            background-color: #FFFFFF;
+        }
+        button {
+            font-size: 20px;
+            padding: 10px 20px 10px 20px;
+        }
+        #lca {
+            font-size: 25px;
+        }
+    </style>
+    <body>
+        <h1>Dev Tools</h1>
+        <hr>
+        <div>
+            <button id="rcs">Reset Cache Server</button>
+            <button id="gcl">Get Cache List</button>
+        </div>
+        <hr>
+        <div id="lca"><snap>Last Command Action : </snap><snap id="cd"></snap></div>
+        <script>
+            document.getElementById("rcs").onclick = () => {
+                fetch("/cache/clear", { method: 'DELETE' }).then((data) => {
+                    document.getElementById("cd").innerText = "Clear Cache Server" + "\n" + new Date();
+                });
+            };
+            document.getElementById("gcl").onclick = () => {
+                fetch("/cache/list", { method: 'GET' }).then((data) => {
+                    data.json().then((data) => {
+                        document.getElementById("cd").innerText = "Get Cache List" + "\n" + new Date() + "\n\n";
+                        document.getElementById("cd").innerText += JSON.stringify(data, null, "ㅤ");
+                    })
+                });
+            };
+        </script>
+    </body>
+</html>

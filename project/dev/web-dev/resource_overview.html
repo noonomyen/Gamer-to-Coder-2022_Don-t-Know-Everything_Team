@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Resource Overview</title>
+    </head>
+    <style>
+        body div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        img {
+            max-height: 500px;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+        .text {
+            font-size: 30px;
+        }
+    </style>
+    <body>
+        <div id="c"></div>
+        <script>
+            var count = 0;
+            var c = document.getElementById("c");
+            var p = "http://127.0.0.1:8000/cache/request?url=";
+            fetch(p + "https://gamertocoder.garena.co.th/api/assets").then((data) => {
+                data.json().then((data) => {
+                    for (let i in data) {
+                        for (let ii of data[i]) {
+                            let img = document.createElement("img");
+                            img.src = p + ii;
+                            let pp = document.createElement("div");
+                            count += 1;
+                            pp.innerText = count.toString() + " - gamertocoder.garena.co.th/api/assets -> " + i + " -> " + ii;
+                            pp.classList.add("text");
+                            let e = document.createElement("div");
+                            e.appendChild(pp);
+                            e.appendChild(img);
+                            c.appendChild(e);
+                        };
+                    };
+                });
+            });
+            fetch(p + "https://gamertocoder.garena.co.th/api/minigames").then((data) => {
+                data.json().then((data) => {
+                    for (let i of data) {
+                        let img = document.createElement("img");
+                        img.src = p + i["icon"];
+                        let pp = document.createElement("div");
+                        count += 1;
+                        pp.innerText = count.toString() + " - gamertocoder.garena.co.th/api/minigames -> icon -> " + i["icon"];
+                        pp.classList.add("text");
+                        let e = document.createElement("div");
+                        e.appendChild(pp);
+                        e.appendChild(img);
+                        c.appendChild(e);
+                        if (i["images"] != null) {
+                            for (let ii of i["images"]) {
+                                let img = document.createElement("img");
+                                img.src = p + ii;
+                                let pp = document.createElement("div");
+                                count += 1;
+                                pp.innerText = count.toString() + " - gamertocoder.garena.co.th/api/minigames -> images -> " + ii;
+                                pp.classList.add("text");
+                                let e = document.createElement("div");
+                                e.appendChild(pp);
+                                e.appendChild(img);
+                                c.appendChild(e);
+                            };
+                        };
+                    };
+                });
+            });
+        </script>
+    </body>
+</html>

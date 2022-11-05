@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Garena Blockman GO</title>
+        <!-- https://fonts.google.com/specimen/Prompt -->
+        <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet"> -->
+        <!-- Icon || Font Awesome is a font and icon toolkit based on CSS - https://fontawesome.com/icons -->
+        <link rel="stylesheet" href="/cache/request?url=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css" integrity="sha512-HHsOC+h3najWR7OKiGZtfhFIEzg5VRIPde0kB0bG2QRidTQqf+sbfcxCTB16AcFB93xMjnBIKE29/MjdzXE+qw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/index.minigames.css">
+        <link rel="stylesheet" href="css/index.blockmango.css">
+        <link rel="stylesheet" href="css/index.characters.css">
+    </head>
+    <body class="">
+        <div id="btn_arrow">
+            <div class="left"><i class="fa-solid fa-angle-left"></i></div>
+            <div class="right"><i class="fa-solid fa-angle-right"></i></div>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li id="btn_mini_game">MINI GAMES</li>
+                <li id="btn_blockman_go">BLOCKMAN GO</li>
+                <li id="btn_characters">CHARACTERS</li>
+            </ul>
+        </nav>
+        <div id="mini_games" class="body">
+            <div class="frame background"></div>
+            <div class="frame">
+                <div class="container">
+                    <div class="left"></div>
+                    <div id="minigames_game_details" class="right">
+                        <div class="img"></div>
+                        <div class="text name animation"></div>
+                        <div class="text genre animation"></div>
+                        <div class="text description animation"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="blockman_go" class="body">
+            <div class="center-bottom">
+                <img class="logo" alt="Blockman GO logo">
+                <a class="download-now">
+                    <i class="fa-solid fa-download"></i>
+                    <snap>Download</snap>
+                </a>
+                <a class="download-other">Download other</a>
+            </div>
+            <div class="download-other-background-blur"></div>
+            <div class="download-other">
+                <div class="top">
+                    <span>Download Garena Blockman GO</span>
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="container-platform-download">
+                    <div class="app-store">
+                        <i class="fa-brands fa-app-store"></i>
+                        <span>AppStore</span>
+                    </div>
+                    <div class="google-play">
+                        <i class="fa-brands fa-google-play"></i>
+                        <span>GooglePlay</span>
+                    </div>
+                    <div class="windows">
+                        <i class="fa-brands fa-windows"></i>
+                        <span>Windows</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="characters" class="body">
+            <div class="frame background"></div>
+            <div class="frame">
+                <div class="container">
+                    <div class="left"></div>
+                    <div id="characters_details" class="right">
+                        <div class="img"><img></div>
+                        <div class="name animation"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="/dev/preload.js"></script>
+        <script src="js/resource.js"></script>
+        <script src="js/remove_transparent.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+{
+    "listen": "127.0.0.1:8000",
+    "dev": {
+        "debug.pprof": false,
+        "debug.pprof.listen": "127.0.0.1:6060",
+        "debug.gc": false,
+        "debug.gc.percent": 100,
+        "debug.gin": true,
+        "runtime.gcmaxprocs": 0,
+        "debug.request-log": true,
+        "debug.request-log.counter": true,
+        "debug.fatal": true,
+        "preset-cache-control-no-store": true
+    },
+    "request-limit":  {
+        "enable": false,
+        "limit": 3
+    },
+    "Static": [
+        ["static", "/", ".."],
+        ["static", "/dev", "./web-dev"]
+    ]
+}

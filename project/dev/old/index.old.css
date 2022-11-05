@@ -1,0 +1,293 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: var(--default-font), sans-serif;
+    background: top;
+    background-size: cover;
+    height: 100%;
+    height: 100vh;
+    width: 100%;
+}
+.background_body_minigames {
+    background-image: var(--background-body-minigame);
+}
+.background_body_blockman_go {
+    background-image: var(--background-body-blockman_go);
+}
+.background_body_characters {
+    background-image: var(--background-body-characters);
+}
+.body {
+    width: 100%;
+    height: 100%;
+}
+#btn_arrow div {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50px;
+    background-color: rgba(0, 0, 0, 0.600);
+    color:rgb(255, 255, 255);
+    font-size: 45px;
+    opacity: 0.5;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.600);
+    z-index: 1;
+}
+#btn_arrow div.left {
+    left: 0px;
+}
+#btn_arrow div.left:hover {
+    cursor: pointer;
+    opacity: 1;
+    color: rgb(255, 211, 34);
+}
+#btn_arrow div.right {
+    right: 0px;
+}
+#btn_arrow div.right:hover {
+    cursor: pointer;
+    opacity: 1;
+    color: rgb(255, 211, 34);
+}
+.nav {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.5));
+}
+.nav ul {
+    margin: 20px auto;
+    font-family: "Roboto", sans-serif;
+    list-style-type: none;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.600);
+    border-radius: 30px;
+    overflow: hidden;
+}
+.nav ul li {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-size: 27px;
+    font-weight: bold;
+    width: 320px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+.nav .active {
+    color: rgb(255, 211, 34);
+}
+.nav .active::after {
+    content: "";
+    position: absolute;
+    display: block;
+    background-color: rgb(255, 211, 34);
+    border-radius: 5px;
+    width: 320px;
+    height: 5px;
+    bottom: 0px;
+}
+.nav ul li:hover:not(.active) {
+    animation: nav-hover-to-active ease 0.3s forwards 0.05s;
+}
+.nav .deactive {
+    color:rgb(141, 141, 141);
+    animation: nav-hover-active-to-deactive ease 0.3s forwards;
+}
+#mini_games, #blockman_go, #characters {
+    display: none;
+}
+#blockman_go .center-bottom {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%, -25%);
+    background-color: transparent;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#blockman_go .center-bottom img.logo {
+    width: 650px;
+    filter: drop-shadow(5px 5px 10px rgb(0, 0, 0));
+    margin-bottom: 20px;
+}
+#blockman_go .center-bottom a.download-now {
+    font-family: "Roboto" sans-serif;
+    width: 320px;
+    height: 60px;
+    background-color: rgb(255, 211, 34);
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    filter: drop-shadow(0px 0px 10px rgb(0, 0, 0));
+}
+#blockman_go .center-bottom a.download-now i {
+    margin-right: 17px;
+}
+#blockman_go .center-bottom a.download-now:hover {
+    cursor: pointer;
+    background-color: rgb(228, 182, 0);
+}
+#blockman_go .center-bottom a.download-now:active {
+    cursor: pointer;
+    background-color: rgb(173, 139, 0);
+}
+#blockman_go .center-bottom a.download-other {
+    font-size: 18px;
+    margin-top: 14px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 10px rgb(0, 0, 0),
+        0px 0px 15px rgb(0, 0, 0),
+        0px 0px 20px rgb(0, 0, 0),
+        0px 0px 25px rgb(0, 0, 0);
+}
+#blockman_go .center-bottom a.download-other:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+#blockman_go .center-bottom a.download-other:active {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(228, 182, 0);
+}
+#blockman_go div.download-other {
+    display: none;
+    width: 850px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    filter: drop-shadow(0px 0px 5px rgb(0, 0, 0));
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    user-select: none;
+}
+#blockman_go div.download-other div.top i {
+    position: absolute;
+    right: 20px;
+    top: 16px;
+    align-items: baseline;
+    display: inline-block;
+    filter: drop-shadow(0px 0px 2px rgb(255, 255, 255));
+    font-size: 30px;
+}
+#blockman_go div.download-other div.top span {
+    font-size: 33px;
+}
+#blockman_go div.download-other div.top i:hover {
+    cursor: pointer;
+    color: rgb(228, 182, 0);
+}
+#blockman_go div.download-other div.container-platform-download {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+}
+#blockman_go div.download-other div.container-platform-download div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 8px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    width: 260px;
+    box-sizing: border-box;
+}
+#blockman_go div.download-other div.container-platform-download div:hover {
+    cursor: pointer;
+    color: rgb(228, 182, 0);
+    border-color: rgb(228, 182, 0);
+}
+#blockman_go div.download-other div.container-platform-download div:active {
+    cursor: pointer;
+    color: rgb(173, 139, 0);
+    border-color: rgb(173, 139, 0);
+}
+#blockman_go div.download-other div.container-platform-download div i {
+    font-size: 45px;
+}
+#blockman_go div.download-other div.container-platform-download div span {
+    font-size: 35px;
+    margin-left: 10px;
+}
+#blockman_go div.download-other-background-blur {
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(3px);
+}
+#mini_games div.container {
+    position: absolute;
+    width: calc(100% - calc(50px * 2) - 25px);
+    height: calc(100% - calc(20px + 50px + 20px) - 20px);
+    left: 50%;
+    top: calc(20px + 50px + 20px);
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    padding: 5px;
+    backdrop-filter: blur(5px);
+    box-sizing: border-box;
+}
+#mini_games div.container {
+    display: grid;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(3px);
+    padding: 10px;
+    grid-template-columns: 60% auto;
+}
+#mini_games div.container div.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    padding: 10px;
+}
+#mini_games div.container div.container-left {
+    grid-column: 1;
+    grid-row: 1;
+}
+#mini_games div.container div.container-right {
+    grid-column: 2;
+    grid-row: 1;
+    display: grid;
+    gap: 10px;
+    grid-template-rows: 2vw 15vw auto;
+}
+#mini_games div.container div.container-right div.name {
+    font-size: 2vw;
+    font-weight: bold;
+}
+#mini_games div.container div.container-right div.img-view {
+    background-color: black;
+    overflow: hidden;
+}
+#mini_games div.container div.container-right div.img-list {
+    background-color: black;
+}
+
