@@ -1,8 +1,6 @@
-### ที่จัดเก็บ Code และผลงาน ในค่าย Gamer to Coder ของทีม Don't Know Everything
-- ทั้งข้อมูลและรูป ส่วนใหญ่ได้นำมาจาก [www.wikipedia.org](https://www.wikipedia.org/)
+## การเรียกใช้ resource จากภายนอก
 
-```
-day 4 -> day 5
-day 5 -> day 6
-day 6 -> day 8
-```
+| เรียกจาก | เป็น | ของ | ชนิด |
+|:---:|:---:|:---:|:---:|
+| https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css | CSS | https://fontawesome.com | Font / Icon |
+| https://fonts.googleapis.com/css2?family=Prompt&family=Roboto&display=swap | CSS | https://fonts.google.com | Font |
