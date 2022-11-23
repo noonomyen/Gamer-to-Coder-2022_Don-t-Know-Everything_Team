@@ -8,9 +8,9 @@ function Resource_fix_something(obj) {
 // แหล่งข้อมูล
 var resource = {
     url: {
-        assets: "https://gamertocoder.garena.co.th/api/assets",
-        minigames: "https://gamertocoder.garena.co.th/api/minigames",
-        minigame: "https://gamertocoder.garena.co.th/api/minigame/"
+        assets: "",
+        minigames: "",
+        minigame: ""
     }
 };
 
